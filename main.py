@@ -11,8 +11,8 @@ def load_css(file_path):
         css = f.read()
     st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
-# Load the CSS file
-css_path = pathlib.Path("style.css")  # Ensure this path is correct
+
+css_path = pathlib.Path("style.css")  
 load_css(css_path)
 
 
