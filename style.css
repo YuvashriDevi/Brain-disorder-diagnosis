@@ -16,7 +16,7 @@
     font-size: 45px !important;
     font-weight: bold !important;
     text-align: center;
-    background: linear-gradient(to right, #58ade6, #471ce0); /* Gold to Orange */
+    background: linear-gradient(to right, #58ade6, #471ce0); 
     -webkit-background-clip: text;
     color:#5cd1de;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -33,14 +33,14 @@
 }
 
 .stSelectbox:hover {
-    border: 2px solid #ff5733 !important; /* Orange border on hover */
-    box-shadow: 0px 0px 10px #ffcc00 !important; /* Gold glow */
+    border: 2px solid #ff5733 !important; 
+    box-shadow: 0px 0px 10px #ffcc00 !important; 
     transition: 0.3s ease-in-out;
 }
 
 
 .stSelectbox {
-    background-color: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.1) !important; 
     color: white !important;
     font-size: 18px !important;
     font-weight: bold !important;
