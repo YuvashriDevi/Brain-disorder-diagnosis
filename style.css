@@ -1,0 +1,138 @@
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+[data-testid="stHeader"] {
+    display: none !important;
+}
+
+
+
+.title {
+    font-size: 45px !important;
+    font-weight: bold !important;
+    text-align: center;
+    background: linear-gradient(to right, #58ade6, #471ce0); /* Gold to Orange */
+    -webkit-background-clip: text;
+    color:#5cd1de;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family:Arial, Helvetica, sans-serif;
+  
+    
+}
+.header {
+    font-size: 30px !important;
+    color: #003366 !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+.stSelectbox:hover {
+    border: 2px solid #ff5733 !important; /* Orange border on hover */
+    box-shadow: 0px 0px 10px #ffcc00 !important; /* Gold glow */
+    transition: 0.3s ease-in-out;
+}
+
+
+.stSelectbox {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent white */
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+    border: 2px solid #471ce0 !important;
+}
+
+
+
+.chatbot-container {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+input[type="text"] {
+    border: 1px solid #003366;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.stButton>button {
+    background-color: #58ade6;
+    color: white;
+    border:solid;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+[data-testid="stAppViewContainer"] {
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/010/142/210/small_2x/abstract-light-blue-minimal-background-with-dynamic-wavy-gradient-line-long-banner-business-template-asbtract-background-website-landing-page-template-for-websites-or-apps-modern-design-vector.jpg') no-repeat center center ;
+    background-size:cover;
+  
+}
+
+/* Sidebar (Navigation) Background */
+[data-testid="stSidebar"] {
+    background: url('https://img.freepik.com/free-vector/blank-blue-halftone-background_53876-99003.jpg') no-repeat center center;
+    background-size: cover;
+    border-right: solid 5px navy;
+}
+
+.custom-info {
+    background-color: transparent; 
+    padding: 15px;
+    border-radius: 10px;
+    color: navy !important; 
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 5px solid #482e89; 
+}
+
+.email-text {
+    color: lightcyan !important; 
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Ai{
+    color: navy !important;
+    font-weight: bold;
+    
+}
+
+.heading {
+    color:black !important; 
+    font-weight: bold;
+    font-size: 18px !important;
+
+}
+
+div[data-testid="stFileUploader"] {
+    background-color: lightblue !important;  
+    border: 2px dashed #050c5b !important;  
+    border-radius: 12px !important;  
+    padding: 20px !important;
+    text-align: center !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+div[data-testid="stFileUploader"] label {
+    color: navy !important;  
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
