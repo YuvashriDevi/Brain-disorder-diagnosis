@@ -1,0 +1,201 @@
+[data-testid="stToolbar"], [data-testid="stDecoration"], [data-testid="stHeader"] {
+    display: none !important;
+}
+
+/* Updated title style */
+.title {
+    font-size: 50px !important;
+    font-weight: bold !important;
+    text-align: center;
+    background: linear-gradient(to right, #555, #222); /* Dark gray gradient */
+    -webkit-background-clip: text;
+    color: #eae3e3;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5) !important;
+    font-family:Poppins !important;
+}
+
+.header {
+    font-size: 25px !important;
+    color: #2d0303 !important;
+    font-weight: bolder !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:initial !important;
+     
+}
+
+.header1 {
+    font-size: 25px !important;
+    color: #231d1d !important;
+    font-weight: bolder !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif!important;
+     
+}
+
+.stSelectbox:hover {
+    border: 2px solid #777 !important; /* Gray border on hover */
+    box-shadow: 0px 0px 10px #666 !important; /* Gray glow */
+    transition: 0.3s ease-in-out;
+}
+
+.stSelectbox {
+    background-color: rgba(50, 50, 50, 0.8) !important; /* Semi-transparent dark gray */
+    color: #ddd !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+    border: 2px solid #444 !important;
+}
+
+.chatbot-container {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    border: 1px solid #666;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #222;
+    color: #ddd;
+}
+
+.stButton>button {
+    background-color: #444;
+    color: white;
+    border: solid;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+[data-testid="stAppViewContainer"] {
+    background: url('https://img.freepik.com/free-photo/abstract-luxury-blur-grey-color-gradient-used-as-background-studio-wall-display-your-products_1258-54073.jpg?semt=ais_hybrid') no-repeat center center;
+    background-size: cover;
+}
+
+[data-testid="stSidebar"] {
+    background: #333; /* Dark sidebar */
+    border-right: solid 5px #555;
+    
+    background: url('https://img.freepik.com/free-photo/abstract-luxury-blur-grey-color-gradient-used-as-background-studio-wall-display-your-products_1258-54073.jpg?semt=ais_hybrid') no-repeat center center;
+    background-size: cover;
+        
+    }
+
+.custom-info {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    color: black !important;
+    font-size: 16px;
+    font-weight: bold;
+    border-left: 5px solid #777;
+    
+}
+
+.email-text {
+    color: #0c0000 !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Ai {
+    color: #0b0000 !important;
+    font-weight: bold;
+}
+
+.heading {
+    color: #ddd !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    
+}
+
+div[data-testid="stFileUploader"] {
+    background-color: #444 !important;
+    border: 2px dashed #666 !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    text-align: center !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+div[data-testid="stFileUploader"] label {
+    color: #d7c4c4 !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+[data-testid="stSelectbox"] {
+    color: #333; 
+    font-size: 16px; 
+    font-weight: bold !important;
+   
+}
+
+/* Styling the select box label */
+[data-testid="stSelectbox"] label {
+    font-size: 20px !important;
+    color: #dde2e7; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+/* Report Section Styling */
+.report-container {
+    background-color: #f8f9fa;  /* Light grey background */
+    border: 2px solid #ddd;     /* Light grey border */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.report-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.report-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Styling the Download Button */
+.download-button-container {
+    margin-top: 15px;
+}
+
+button[kind="primary"] {
+    background-color: #4CAF50 !important;  /* Green button */
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 12px 20px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    transition: 0.3s ease-in-out !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #45a049 !important;  /* Darker green on hover */
+    transform: scale(1.05);
+}
