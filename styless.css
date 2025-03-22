@@ -1,0 +1,165 @@
+[data-testid="stToolbar"], [data-testid="stDecoration"], [data-testid="stHeader"] {
+    display: none !important;
+}
+
+
+
+
+.stApp {
+    background-color: #0D1B2A;
+}
+
+.title {
+    font-size: 25px !important;
+    font-weight: bold;
+    text-align: center;
+    color:aliceblue;
+    background: linear-gradient(90deg, #1E3A5F, #415A77);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+/* Sidebar Styling */
+.sidebar .sidebar-content {
+    background-color: #1B263B !important;
+    color: #E0E1DD;
+}
+/* Styling for the Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #1B263B !important; /* Dark blue */
+    color: #E0E1DD !important; /* Light text */
+}
+
+/* Ensuring all sidebar components match the background */
+[data-testid="stSidebar"] .stMarkdown, 
+[data-testid="stSidebar"] .stTextInput, 
+[data-testid="stSidebar"] .stButton, 
+[data-testid="stSidebar"] .stFileUploader {
+    background-color: #415A77 !important;
+    border-radius: 10px;
+    padding: 10px;
+    color: #E0E1DD !important;
+}
+
+
+.css-1d391kg {  /* Applies to widgets */
+    background-color: #1B263B;
+}
+
+/* Styling for Markdown Text */
+.stMarkdown, .stTextInput, .stButton, .stFileUploader {
+    background-color: #415A77;
+    border-radius: 10px;
+    padding: 10px;
+    color: #E0E1DD;
+    font-family:initial!important;
+}
+
+/* Button Styling */
+.stButton button {
+    background-color: #778DA9;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.stButton button:hover {
+    background-color: #526F92;
+}
+
+
+/* Increase size of uploaded MRI scan preview */
+img[alt="MRI Brain Scan"] {
+    width:auto !important;
+    height: auto !important;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    display: block;
+    margin: 10px auto; /* Center alignment */
+}
+
+
+img[alt="SHAP Explanation"] {
+    width: 200px !important;
+    height: auto !important;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    display: block;
+    margin: 10px auto; /* Center alignment */
+}
+
+
+img[alt="LIME Explanation"] {
+    width: auto !important;
+    height: auto !important;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    display: block;
+    margin: 10px auto; /* Center alignment */
+}
+img[alt="Grad-CAM Heatmap"] {
+    width: auto !important; 
+    height: auto !important;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    display: block;
+    margin: 10px auto; /* Center alignment */
+}
+
+/* Chatbot Message Styling */
+.stSidebar .stTextInput {
+    background-color: #1B263B;
+    color: #E0E1DD;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+div.block-container {
+    padding-top: 0 !important;
+    margin-top: -20px !important;  
+}
+
+/* Custom Styling for st.sidebar.info() */
+[data-testid="stSidebar"] .stAlert {
+    background-color: #778DA9 !important; /* Muted blue background */
+    color: #E0E1DD !important; /* Light-colored text */
+    border-left: 5px solid #F4A261 !important; /* Orange left border for highlight */
+    border-radius: 8px;
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.result-card {
+    background: linear-gradient(145deg, #1e293b, #334155); /* Subtle gradient */
+    color: #ffffff; /* White text */
+    font-size: 20px;
+    font-weight: 600; /* Slightly lighter than bold */
+    padding: 10px !important; 
+    border-radius: 10px; /* Smooth rounded corners */
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.result-card:hover {
+    transform: scale(1.02); /* Slight enlargement for interaction */
+}
+
+/* Diagnosis Styling */
+.diagnosis {
+    background: linear-gradient(145deg, #011c52, #060461); /* Golden gradient */
+}
+
+/* Confidence Styling */
+.confidence {
+    background: linear-gradient(145deg, #011c52, #011c52); /* Cool blue gradient */
+}
